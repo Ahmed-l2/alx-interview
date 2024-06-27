@@ -3,6 +3,7 @@
 
 
 def pascal_triangle(n):
+    """Pascal's Triange"""
     results = [[1]]
     if not n:
         return []
