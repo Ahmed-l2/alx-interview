@@ -34,7 +34,7 @@ def stats():
 
     except KeyboardInterrupt:
         print_stats(file_size, status_codes)
-        sys.exit(0)
+        raise
 
 
 def print_stats(file_size, status_codes):
