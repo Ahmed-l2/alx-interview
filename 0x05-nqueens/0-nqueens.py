@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import sys
 """N-Queens Puzzle"""
+import sys
 
 
 def is_integer(value):
