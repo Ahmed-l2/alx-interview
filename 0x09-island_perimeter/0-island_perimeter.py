@@ -48,3 +48,4 @@ def island_perimeter(grid):
         for j in range(len(grid[0])):
             if grid[i][j]:
                 return dfs(i, j)
+    return 0
